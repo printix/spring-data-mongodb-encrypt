@@ -161,7 +161,7 @@ public class ReflectionCache {
     static String parseFieldAnnotation(java.lang.reflect.Field field, String fieldName) {
         Field fieldAnnotation = field.getAnnotation(Field.class);
         if (fieldAnnotation != null) {
-            String name = fieldAnnotation.name();
+            String name = fieldAnnotation.value();
 
             if (!name.isEmpty()) return name;
             else {
