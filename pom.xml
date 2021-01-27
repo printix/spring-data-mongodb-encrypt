@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bol</groupId>
-    <artifactId>spring-data-mongodb-encrypt-printix</artifactId>
+    <artifactId>spring-data-mongodb-encrypt</artifactId>
     <packaging>jar</packaging>
     <name>spring-data-mongodb-encrypt</name>
     <version>2.5.3-printix-SNAPSHOT</version>
